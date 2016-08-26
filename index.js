@@ -34,7 +34,7 @@ const _attributes = {
 
 const _basicPersonalDataAttributeNames = ['first_name', 'last_name', 'full_name',
   'email', 'business_name', 'country', 'payer_id']
-const _advancedPersonalDataAttributeNames = [..._basicPersonalDataAttributeNames,
+const _advancedPersonalDataAttributeNames = _basicPersonalDataAttributeNames + [
   'date_of_birth', 'postcode', 'street1', 'street2', 'city', 'state', 'phone']
 
 const paypalUrlEncode = s => {
